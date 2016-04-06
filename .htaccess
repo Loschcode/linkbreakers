@@ -1,0 +1,32 @@
+RewriteEngine On
+
+RewriteBase /
+RewriteCond %{REQUEST_URI} ^system.*
+RewriteRule ^(.*)$ /index.php/{escape:$0} [L]
+
+RewriteCond %{HTTP_HOST} !^www\.|^fr\.|^en\.|^tools\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+# TOOLS SUBDOMAIN #
+RewriteCond %{HTTP_HOST} ^tools.linkbreakers.com [NC]
+RewriteCond %{REQUEST_URI} !^/index.php/tools
+RewriteRule ^(.*)$ http://www.linkbreakers.com/tools/$1 [L]
+
+# FR SUBDOMAIN #
+RewriteCond %{HTTP_HOST} ^fr.linkbreakers.com [NC]
+RewriteCond %{REQUEST_URI} !^/index.php/lang/fr
+RewriteRule ^(.*)$ http://www.linkbreakers.com/lang/fr/$1 [L]
+
+# EN SUBDOMAIN #
+RewriteCond %{HTTP_HOST} ^en.linkbreakers.com [NC]
+RewriteCond %{REQUEST_URI} !^/index.php/lang/en
+RewriteRule ^(.*)$ http://www.linkbreakers.com/lang/en/$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/{escape:$0} [L]
+
+# DELETE IT WHEN THE BLOG IS UPDATED
+# RewriteCond %{HTTP_HOST} ^www.linkbreakers.com [NC]
+# RewriteCond %{REQUEST_URI} !^/index.php/blog
+# RewriteRule ^(.*)$ http://www.linkbreakers.com/docs/error [L]

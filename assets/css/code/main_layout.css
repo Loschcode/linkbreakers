@@ -1,0 +1,57 @@
+/**
+ * Linkbreakers
+ *
+ * The very first instant search engine
+ *
+ * @package		Linkbreakers Front / Code section
+ * @author		Laurent Schaffner
+ * @copyright	2013
+ * @link		http://www.linkbreakers.com/
+ * @since		Version 0.0.1
+ */
+
+
+/* Table of Content
+==================================================
+	#Global Html
+		- All about html entities
+	#Code
+		- All about the code decoration
+
+/* #Global Html
+================================================== */
+
+/* Mini framework */
+.code_new_line { padding-bottom : 0.1em; }
+
+/* #Code
+================================================== */
+span.code_url_tools { color : #B02B2C; font-weight: bold; }
+span.code_url_linkedurl { color : #e85c41; font-weight: normal; font-style: italic; }
+
+span.code_url_comments { color: #92278f; font-weight: normal; font-style: italic; }
+
+span.code_url_function { color: #356AA0; font-weight: bold; }
+span.code_url_function_condition { color: #92278f; font-weight: bold; }
+
+span.code_url_variable { color: #008080; font-weight: bold; }
+span.code_url_variable_inner_brackets { color: #079e9e; font-weight: normal; }
+
+span.code_string_variable { color: #008080; font-weight: bold; }
+span.code_string_variable_strongtype { color : #595959; font-weight: bold; }
+
+/*div.time { display: inline-block; width: 12%; float : left; }
+div.time span { font-style: italic  }
+div.msg { float : left; width : 80%; color : #d5d5d5;}
+div.msg:hover { color : #f3f3f3 !important; }
+hr { border : none; border-bottom: 1px dashed #f3f3f3 }
+.copyright { text-align: right;  }*/
+
+/*
+.default { color : #d5d5d5 !important; }
+.blue { color : #3498DB !important; }
+.yellow { color : yellow !important; }
+.red { color : red !important; }
+.green { color : green !important; }
+.arg { font-weight: bold !important; }
+*/

@@ -1,0 +1,95 @@
+/**
+ * Linkbreakers
+ *
+ * The very first instant search engine
+ *
+ * @package		Linkbreakers Front
+ * @author		Jeremie Ges
+ * @copyright	2013
+ * @link		http://www.linkbreakers.com/
+ * @since		Version 0.0.1
+ */
+
+
+/* Table of Content
+==================================================
+	#Global Html
+		- All about html entities
+	#DevLog
+		- All about the devlog	
+	#Font-Face 
+		- Custom font faces
+	*/
+
+/* #Global Html
+================================================== */
+
+html, body {  font-weight: 300; }
+
+/* Links style */
+a {
+
+	color: white;
+	text-decoration: none;
+
+}
+
+a:hover,
+a:focus {
+
+  border-bottom: 1px dotted white;
+  padding-bottom: 3px;
+  color: white;
+
+}
+
+/* Mini framework */
+.pspacer { padding-top : 2em; }
+.pspacer-little { padding-top : 0.5em; }
+.tcenter { text-align : center; }
+.tright { text-align : right; }
+.clear { clear: both }
+.spacer { margin-top: 2em }
+
+
+/* #DevLog
+================================================== */
+body { background-color : #191818; color : #f3f3f3; font-family: Arial; font-weight: 300; }
+.content { padding : 1em; letter-spacing: 1.2px; font-size : 14px; line-height: 20px}
+div.time { display: inline-block; width: 12%; float : left; }
+div.time span { font-style: italic  }
+div.msg { float : left; width : 80%; color : #d5d5d5;}
+div.msg:hover { color : #f3f3f3 !important; }
+hr { border : none; border-bottom: 1px dashed #f3f3f3 }
+.copyright { text-align: right;  }
+
+/* Here you can add many colors to color lines of devlog */
+.default { color : #d5d5d5 !important; }
+.blue { color : #3498DB !important; }
+.yellow { color : yellow !important; }
+.red { color : red !important; }
+.green { color : green !important; }
+.arg { font-weight: bold !important; }
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+	    */
+
+/* #Css for javascript plugins
+================================================== */
+

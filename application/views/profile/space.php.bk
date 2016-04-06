@@ -1,0 +1,149 @@
+<style type="text/css">
+#space_description {
+  vertical-align: top;
+  transition: height 0.2s;
+  -webkit-transition: height 0.2s;
+  -moz-transition: height 0.2s;
+  font-size: 15px;
+}
+
+</style>
+
+<script src="<?=js_url('autosize')?>" type="text/javascript"></script>
+
+
+<script>
+
+$(document).ready(function() {
+
+  $('textarea').autosize();
+
+});
+
+</script>
+
+<div align="center">
+  <div style="width:60%">
+
+    <hr class="spacer_border" />
+
+    <?php if (!isset($profile_msg)): ?>
+    <strong>Bienvenue <?=$username?> !</strong> Gère ton espace personnel en le personnalisant à ton goût !
+  <?php else: ?>
+  <?=$profile_msg?>
+<?php endif; ?>
+
+<hr class="spacer_border" />
+
+<div align="left">
+<a href="<?=base_url('profile/creations')?>" class="classify mright04">Accéder à mes créations</a>
+<a href="<?=base_url(strtolower($username))?>" class="classify mright04">Voir mon espace personnel</a>
+</div>
+<br />
+<br />
+
+
+<div id="profile_view">
+  <div class="fmiddle">
+    <br />
+    <h2>Avatar de mon espace</h2>
+  </div>
+
+  <div class="fright">
+  </div>
+  <div class="mtop1 clear"></div>
+  <hr class="spacer_border">
+
+  <?php if ($space_avatar): ?>
+  <img src="<?=$space_avatar?>">
+<?php else: ?>
+	<h2>Aucun</h2>
+<?php endif; ?>
+
+<br />
+<br />
+<form method="post" action="<?=base_url('profile/update/space_avatar')?>" enctype="multipart/form-data">     
+  <input type="hidden" name="MAX_FILE_SIZE" value="2097152">     
+  <input type="file" name="avatar_file">
+  <br />
+  <em>Format conseillé : 800x180</em>
+  <br /><br />
+
+  <button type="submit" class="classify mright04 public_classify align-top" data-loading-text="Chargement ...">
+    <i class="icon-wrench"></i> Changer mon avatar
+  </button>
+
+    <a class="classify delete_rumble delete_classify align-top" href="<?=base_url('profile/update/space_avatar/delete')?>"><i class="icon-trash"></i> Supprimer </a> 
+
+</form>
+
+</div>
+
+<br />
+
+<div id="profile_view">
+  <div class="fmiddle">
+    <br />
+    <h2>Description de mon espace</h2>
+  </div>
+
+  <div class="fright">
+  </div>
+  <div class="mtop1 clear"></div>
+
+
+  <hr class="spacer_border">
+
+  <form id="form_add" name="form_add" method="POST" target="_self" action="<?=base_url('profile/update/space_description')?>">
+
+   <?=form_error('space_description')?>
+   <textarea align="left" type="text" class="span7 codex" id="space_description" placeholder="Ajoutez une description ..." name="space_description" autocomplete="off" maxlength="2000"><?=$space_description?></textarea>
+
+   <br />
+   <em>Cette description sera visible sous la barre de recherche de votre espace. LBL autorisé.</em>
+   <br /><br />
+  <button type="submit" class="classify mright04 public_classify align-top">
+    <i class="icon-edit"></i> Changer ma description
+  </button>
+ </form>
+
+</div>
+
+<br />
+
+<div id="profile_view">
+  <div class="fmiddle">
+    <br />
+    <h2>Redirection par défaut</h2>
+  </div>
+
+  <div class="fright">
+  </div>
+  <div class="mtop1 clear"></div>
+
+
+  <hr class="spacer_border">
+
+  <form id="form_add" name="form_add" method="POST" target="_self" action="<?=base_url('profile/update/space_redirection')?>">
+
+   <?=form_error('space_redirection')?>
+   <input text align="left" type="text" class="span7 codex" id="space_redirection" placeholder="http://www.google.com/#q={SEARCH}" name="space_redirection" value="<?=$space_redirection?>" autocomplete="off" maxlength="2000">
+
+   <br />
+   <em>Si rien n'est trouvé à travers l'espace de l'utilisateur, une redirection personnalisée peut être définie. Utilise <a href="http://www.linkbreakers.com/blog/fonction-search/" target="_blank">{SEARCH}</a> pour replacer la recherche de l'utilisateur. LBL (evidemment) autorisé.<em>
+   <br /><br />
+  <button type="submit" class="classify mright04 public_classify align-top">
+    <i class="icon-edit"></i> Personnaliser la redirection
+  </button>  
+ </form>
+
+</div>
+
+</div>
+</div>
+
+<br /><br />
+<a href="<?=base_url('profile/update/space/deactivate')?>" class="btn-large btn-danger">Désactiver mon espace personnel (réactivable)</a>
+
+
+

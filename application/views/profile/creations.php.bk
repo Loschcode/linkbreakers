@@ -1,0 +1,147 @@
+<div align="center">
+  <div style="width:60%">
+
+    <hr class="spacer_border" />
+
+    <?php if (!isset($profile_msg)): ?>
+    Modifie tes créations, ou rend les visible pour tous les utilisateurs !
+  <?php else: ?>
+  <?=$profile_msg?>
+<?php endif; ?>
+<hr class="spacer_border" />
+
+<?php $results = FALSE; ?>
+
+<?php foreach ($my_creations as $key => $row): ?>
+
+
+
+  <div id="profile_view">
+    <div class="fleft">
+      <span class="classify nocursor"><i class="icon-time"></i> Crée le <?= $row['see_date'] ?></span>
+    </div>
+
+    <div class="fright">
+      <a class="classify mright04 public_classify" href="<?= base_url('tag/ask_public/' . $row['id']) ?>"><i class="icon-road"></i> Rendre Public </a>
+      <a class="classify mright04 edit_classify" href="<?=base_url('tag/edit_specific/'.$row['id'])?>"><i class="icon-edit"></i> Editer </a>
+
+      <a  class="classify delete_rumble delete_classify" href="<?=base_url('tag/delete_specific/'.$row['id'])?>"><i  class="icon-trash"></i> Supprimer </a>
+
+    </div>
+    <div class="mtop1 clear"></div>
+    <hr class="spacer_border">
+
+    <span class="string_pure"><?= ucfirst($row['string_pure']) ?></span>
+
+    <br /><strong><?= $row['url_pure'] ?></strong>
+    <br/><br/>
+    <div id="permalink_<?= $key ?>" class="fleft">
+      <a id="a_permalink_<?= $key ?>" class="classify share_rumble share_classify" href=""><i class="icon-share"></i> Partager</a>
+      <input class="w17 no_display" id="input_permalink_<?= $key ?>" type="text" value="<?=base_url('/'.$userid.'/'.str_replace(' ', '%20', $row['autocomplete']))?>" />
+    </div>
+    <br/>
+    <br/>
+
+  </div>
+
+  <div class="mtop2" />
+
+  <?php $results = TRUE; ?>
+
+
+<?php endforeach; ?>
+
+<?php if (!$results): ?>
+<h2>Aucune</h2>
+<?php endif; ?>
+
+  <hr class="spacer_border" />
+    Voici la liste de tes créations qui sont déjà publiques et validées par les modérateurs ...
+  <hr class="spacer_border" />
+
+<?php foreach ($my_public_creations as $key=>$row): ?>
+
+
+  <div id="profile_view">
+      
+      <i class="icon-search"></i> <?= ucfirst($row['string_pure']) ?><br />
+      <i class="icon-tags"></i> <strong><?= $row['url_pure'] ?></strong><br />
+      <i class="icon-time"></i> Crée le <?= $row['see_date'] ?>
+  </div>
+
+  <div class="mtop2" />
+
+  <?php $results = TRUE; ?>
+
+
+<?php endforeach; ?>
+
+<?php if (!$results): ?>
+<h2>Aucune</h2>
+<?php endif; ?>
+
+<?php if (!$results): ?><br /><h2>Vous n'avez pas de création pour le moment ...<br /><a href="<?=base_url('tag/add')?>">En ajouter une ?</a></h2><? endif; ?>
+
+</div>
+</div>
+
+<script>
+
+$('a').click(function () {
+
+  var attribute =  $(this).attr('id');
+  if (attribute.substr(0, 11) == 'a_permalink') {
+    var id_pos = attribute.substr(12,attribute.length);
+    $(this).hide();
+    $('#input_permalink_' + id_pos).removeClass('no_display');
+    $('#input_permalink_' + id_pos).focus();
+    return false;
+  }
+
+
+});
+
+$('input').blur(function() {
+ var attribute = $(this).attr('id');
+ if (attribute.substr(0, 15) == 'input_permalink') {
+  var id_pos = attribute.substr(16, attribute.length);
+  $(this).addClass('no_display');
+  $('#a_permalink_' + id_pos).show();
+  return false;
+ }
+});
+
+function copy(url, id_pos) {
+  // Create input text
+  var input = '<input class="w17" onblur="put_link(\'' + url + '\', ' + id_pos + ')" id="input_permalink_' + id_pos + '" type="text" value="' + url + '" />';
+  // Replace link by input text with same value
+  document.getElementById('permalink_' + id_pos).innerHTML = input;
+  document.getElementById('input_permalink_' + id_pos).focus();
+
+}
+
+function put_link(url, id_pos) {
+  var link = '<a id="a_permalink" class="classify share_rumble share_classify" onclick="copy(\'' + url + '\', ' + id_pos + ');return false;" href="#"><i class="icon-share"></i> Partager</a>';
+  document.getElementById('permalink_' + id_pos).innerHTML = link;
+}
+
+$('.delete_rumble').jrumble({
+  speed: 0
+});
+
+$('.share_rumble').jrumble({
+  speed: 40,
+  x: 4,
+  y: 0,
+  rotation: 0
+});
+
+
+$('.delete_rumble, .share_rumble').hover(function(){
+  $(this).trigger('startRumble');
+}, function(){
+  $(this).trigger('stopRumble');
+
+});
+</script>
+

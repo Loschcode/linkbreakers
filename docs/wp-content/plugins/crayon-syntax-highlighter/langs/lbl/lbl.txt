@@ -1,0 +1,34 @@
+### LINK BREAKERS LANGUAGE ###
+
+#   ELEMENT_NAME [optional-css-class] REGULAR_EXPRESSION
+
+    NAME                        LBL
+    VERSION                     0.1.7
+
+    # LBL COMMENTS
+    COMMENT                     (?default)
+
+    # THE CODE/RETOUR/URL/STRING things (meta-name within the doc)
+    CONSTRUCT:KEYWORD           \b(?alt:meta.txt)\b
+
+    # THE { FUN : }
+    ENTITY                      (\{[A-Z_]*\:)|(\})
+
+    # $var
+    VARIABLE                    \$[a-z_\(\)]\w*\b
+
+    # CONSTANTS SUCH AS ENCODE, URL
+    CONSTANT                    ((?-i)\b[A-Z_]*\b(?i))|((?default))
+
+    # TOOLS
+    MODIFIER                    ((\#tools\/[a-z]*))
+
+
+
+
+   # STATEMENT                   ((\#tools\/[a-z]*))
+   # RESERVED                    (?default)                 
+   # OTHER_ID:IDENTIFIER         \b[a-z_]\w*\b\s*(?=\([^\)]*\))
+   # IDENTIFIER                   ((\#tools\/[a-z]*))
+   # OPERATOR                    (?default)
+   # SYMBOL                      (?default)

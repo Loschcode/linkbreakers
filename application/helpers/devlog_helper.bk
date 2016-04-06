@@ -1,0 +1,87 @@
+
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+if ( ! function_exists('devlog')) {
+	/**
+	 * Add an entry to the devlog including instant timestamp
+	 *
+	 * @access public
+	 * @param string $log_msg content we will put
+	 * @param string $type which kind of content will we put ?
+	 * @return void
+	 */
+	function devlog($log_msg, $type='debug') {
+
+		$time = time();
+
+		return TRUE;
+		
+		add_devlog($log_msg, $type, $time);
+
+	}
+}
+
+if ( ! function_exists('get_devlog')) {
+	/**
+	 * Get our devlog content in array format
+	 *
+	 * @access public
+	 * @return array with devlog content
+	 */
+	function get_devlog() {
+
+		$devlog_raw = file_get_contents(LINKBREAKERS_DEVLOG_PATH);
+		$devlog_array = json_decode($devlog_raw, TRUE);
+
+		return $devlog_array;
+
+	}
+}
+
+if ( ! function_exists('add_devlog')) {
+	/**
+	 * Add an entry to the devlog manually (and with all the settings to define)
+	 *
+	 * @access	public
+	 * @param string $log_msg content we will put
+	 * @param string $type which kind of content will we put ?
+	 * @param integer $time the time this event happened
+	 * @return void
+	 */
+	function add_devlog($log_msg, $type, $time) {
+
+		$new_entry_array = array(
+
+			'time' => $time,
+			'log_msg' => $log_msg
+
+			);
+
+		$old_entries = file_get_contents(LINKBREAKERS_DEVLOG_PATH);
+
+		$old_entries_array = json_decode($old_entries, TRUE);
+		if (!is_array($old_entries_array)) $old_entries_array = array();
+
+		$new_content = $old_entries_array;
+		$new_content[$type][] = $new_entry_array;
+
+		//$new_content = array_merge_recursive($old_entries_array, $new_entry_array);
+
+		file_put_contents(LINKBREAKERS_DEVLOG_PATH, json_encode($new_content), LOCK_EX);
+
+	}
+}
+
+if ( ! function_exists('delete_devlog')) {
+	/**
+	 * Delete th devlog
+	 *
+	 * @access	public
+	 * @return void
+	 */
+	function delete_devlog() {
+
+		file_put_contents(LINKBREAKERS_DEVLOG_PATH, "");
+
+	}
+}

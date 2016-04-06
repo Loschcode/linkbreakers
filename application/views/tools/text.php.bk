@@ -1,0 +1,16 @@
+<div>
+
+	<br />
+
+	<?php if ($voice == 1): ?>
+		<iframe width="0" height="0" frameborder="0" src="http://translate.google.com/translate_tts?tl=<?=$lang_small;?>&q=<?=$voice_content;?>"></iframe>
+	<?php endif; ?>
+
+	<p>
+		<br/><br/>
+		<?=$content?>
+	</p>
+	<br /><br /><br />
+	<br /><br /><br />
+
+</div>

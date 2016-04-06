@@ -1,0 +1,9 @@
+Modifications réalisées sur le coeur JsIgniter :
+
+- 22 aout 2013 : Lors d'un this.load.view() si le développeur met .html à la fin, il est automatiquement enlevé par la système.
+			   : Si il y'a une erreur de chargement de vue, un console.log() a été ajouté pour indiquer l'erreur
+
+Améliorations à faire : 
+- Charger automatiquement jQuery si il n'est pas définit 
+- Permettre la communication entre php et js via une variable globale App qui remplira automatiquement l'instance Config
+- Faire un système de log avec système de config pour afficher ou non (pourquoi pas une petite fenetre qui s'affiche avec les temps d'exec et cie)

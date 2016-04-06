@@ -1,0 +1,30 @@
+<div align="center">
+  <div style="width:60%">
+
+    <hr class="spacer_border" />
+
+    <?php if (!isset($profile_msg)): ?>
+    <strong>Bienvenue <?=$username?> !</strong> Modifie les paramètres de ton profil !
+    <?php else: ?>
+    <?=$profile_msg?>
+    <?php endif; ?>
+
+<hr class="spacer_border" />
+
+<div align="left">
+<!--<a href="<?=base_url('profile/creations')?>" class="classify mright04">Accéder à mes créations</a>
+<a href="<?=base_url(strtolower($username))?>" class="classify mright04">Voir mon espace de recherche</a>-->
+</div>
+<br />
+<br />
+
+<?php if (!$userspace): ?>
+<a href="<?=base_url('profile/update/space/activate')?>" class="btn-large btn-success">Activer mon espace personnel</a>
+<?php endif; ?>
+
+</div>
+
+</div>
+</div>
+
+

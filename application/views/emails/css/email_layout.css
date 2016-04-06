@@ -1,0 +1,69 @@
+
+html, body { height : 100%; font-weight: 300;  background-image: url('http://www.linkbreakers.com/assets/img/bg.jpg'); }
+
+/* Remove ugly text decoration */
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+a {
+	border-bottom: 1px dotted;
+	text-decoration: none;
+	color: #34495E;
+}
+
+table {
+
+	max-width: 80%;
+	max-height: 80%;
+
+}
+
+.container {
+
+	background-color: white;
+	height: 6em;
+	border: 2px solid #d5d5d5;
+	color: #2c3e50;
+
+}
+
+.undertext {
+
+	padding-top:2em;
+	color: #595959;
+	font-size: 13px;
+
+}
+
+td {
+
+	padding: 2em;
+
+}
+
+h1 {
+
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/*margin: 15px;*/
+	font-weight: 300;
+	letter-spacing: -1px;
+	color: #fff;
+	color: #595959;
+	font-size: 23px;
+
+}
+
+p {
+
+	font-size: 15px;
+
+}
+
+hr {
+
+	border: 0;
+	border-top: 1px dashed #d5d5d5;
+
+}

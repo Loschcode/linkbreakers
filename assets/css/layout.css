@@ -1,0 +1,596 @@
+/**
+ * Linkbreakers
+ *
+ * The very first instant search engine
+ *
+ * @package		Linkbreakers Front
+ * @author		Jeremie Ges
+ * @copyright	2013
+ * @link		http://www.linkbreakers.com/
+ * @since		Version 0.0.1
+ */
+
+
+/* Table of Content
+==================================================
+	#Global Html
+		- All about html entities
+	#Bootstrap Hooks
+		- Re-write bootstrap elements
+	#Site Styles
+		- All website's components
+	#Page Styles
+		- About pages		
+	#Font-Face 
+		- Custom font faces
+	#Css for javascript plugins
+	#Tools
+		- Tool Text
+	*/
+
+/* #Global Html
+================================================== */
+
+/* Fuck you html5 (height 100%) */
+html, body { height : 100%; font-weight: 300;  background-image: url('http://www.linkbreakers.com/assets/img/bg.jpg'); }
+
+/* Remove ugly text decoration */
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+/* Mini framework */
+.pspacer-big { padding-top : 3em; }
+.pspacer { padding-top : 2em; }
+.pspacer-medium { padding-top : 1em; }
+.pspacer-little { padding-top : 0.5em; }
+.tleft { text-align : left; }
+.tcenter { text-align : center; }
+.tright { text-align : right; }
+.tcomment { font-style: italic; }
+.tsmall { font-size: 0.9em; }
+
+.tred { color: #d9534f; }
+.tblue { color: #427bb4; }
+
+.wrapper-avatar {
+
+	background-color: white;
+	border: 4px solid black;
+	height: 130px;
+	width: 130px;
+	border-radius: 70px;
+	overflow: hidden;
+	display: block;
+	margin-top: 1.5em;
+
+}
+
+.push-center {
+
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.tcolor-white { color: white !important; }
+
+.separate-from-right { padding-right: 2em; }
+.separate-from-left { padding-left: 2em; }
+
+.form-same-line { display: inline !important; width: 300px !important; }
+.form-same-line-without-width { display: inline !important; }
+
+/* Picture treatment */
+.roundpicture {
+
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+
+}
+
+.logoresize {
+
+    max-width:600px;
+    height: auto;
+
+}
+
+
+/* #Bootstrap Hooks
+================================================== */
+
+/* We delete the blue ring around buttons */
+.btn:focus {
+
+	outline: none !important;
+
+}
+
+/* Change focus background color */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #2c3e50;
+	background-image: -webkit-gradient(linear, left 0%, left 100%, from(#2c3e50), to(#2c3e50));
+	background-image: -webkit-linear-gradient(top, #2c3e50, 0%, #2c3e50, 100%);
+	background-image: -moz-linear-gradient(top, #2c3e50 0%, #2c3e50 100%);
+	background-image: linear-gradient(to bottom, #2c3e50 0%, #2c3e50 100%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff357ebd', GradientType=0);
+}
+
+/* Forget position fixed */
+.navbar-fixed-bottom, .navbar-fixed-top { position : fixed; }
+
+/* Remove padding into jumbotron block */
+.jumbotron { padding : 0; }
+
+/* Hr */
+hr {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 0;
+	border-top: 1px dashed #d5d5d5;
+}
+
+.dropdown-menu .divider {
+
+	display : block;
+
+}
+
+.well { background-color : white; }
+
+/* #Site Styles
+================================================== */
+
+.spacer-before-footer { padding-bottom : 5em; }
+
+/* Navigation */
+.nav { color : #2c3e50; min-height : 9%;  text-align: right; border-bottom : 2px solid #d5d5d5; }
+
+.nav ul { margin-top : 1em; margin-right : 8em; margin-left : 8em; }
+.nav a { margin-right : 0.2em; }
+
+/* Hook font awesome */
+.nav i { vertical-align: top !important }
+
+.nav-search input { border : 0; color : #595959; font-size : 22px; font-weight : normal;  border-left : 2px solid #f3f3f3; padding-left : 1em;}
+.nav-search input[placeholder] { color : red; }
+.nav-search input:focus { outline: none; }
+
+.nav-background { background-color: white; }
+
+.nav .btn-group .dropdown-menu { margin-left : 0em; text-align : left; }
+.nav .btn-group .dropdown-menu  > li > a:hover {
+	background-color: #e85c41;
+	background-image: none;
+}
+
+.nav .btn-group .dropdown-blue  > li > a:hover {
+	background-color : #2c3e50;
+	background-image: none;
+}
+
+
+
+
+/* Define max width for container */
+.container { max-width: 700px; }
+
+/* Our logo */
+.logo { width : 450px; }
+
+/* The footer */
+.footer { background-color : white; height : 6em; border-top : 2px solid #d5d5d5; }
+.footer .inner { color : #2c3e50; height : 4em; min-height: 20%; margin-right : 8em; margin-left : 8em; margin-top : 2em;  }
+.footer a { color : #2c3e50; }
+.settings { margin-top : -0.3em; }
+
+/* Buttons */
+.btn-blue:hover, .btn-orange:hover, .btn-red:hover, .btn-black:hover { text-shadow: 0 0 10px rgba(255,255,255,.55); }
+.btn-blue { background-color : #2c3e50 !important; color : white !important; }
+.btn-blue:hover { background-color : #2c3e50 !important; color : white !important; }
+
+.btn-orange { background-color : #e85c41; color : white !important; }
+.btn-orange:hover { background-color : #e85c41; color : white !important; }
+.btn-opacity-0-4 { opacity: 0.4; }
+
+.btn-red { background-color : #991401 !important; color : white !important; }
+.btn-red:hover { background-color : #991401 !important; color : white !important; }
+
+.btn-black { background-color : #333333 !important; color : white !important; }
+.btn-black:hover { background-color : #333333 !important; color : white !important; }
+
+/* Alerts */
+.alert-default { color: grey; background-color: #f3f3f3; border-color: #d5d5d5; }
+
+/* Checkboxes */
+input[type="checkbox"].default {
+
+background: #efefef;
+border: 1px solid #ccc;
+cursor: pointer;
+display: inline-block;
+height: 20px;
+width: 20px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-ms-border-radius: 4px;
+-o-border-radius: 4px;
+border-radius: 4px;
+
+}
+
+/* Jumbotron */
+
+
+	/* The blue container */
+	.jumbotron {
+
+		padding-top: 4.2em; /* Added by Laurent */
+
+		font-size: 16px;
+		color: #fff;
+		/*color: rgba(255,255,255,.75);*/
+		color : #595959;
+		text-align: center;
+		background-color : transparent;
+		border-radius: 0;
+		min-height : 80%;
+	}
+
+	/* Punchline "the very first instant search enfine" */
+	.jumbotron h1 {
+		margin-bottom: 15px;
+		font-weight: 300;
+		letter-spacing: -1px;
+		color: #fff;
+		color :#595959;
+
+		font-size : 30px !important;
+	}
+
+	/* The navbar links (docs / make your idea) */
+	.jumbotron .a-like,
+	.jumbotron p a,
+	.jumbotron-links a {
+		font-weight: 500;
+		color: #fff;
+		color :#595959;
+		transition: all .1s ease-in-out;
+	}
+	.jumbotron p a:hover,
+	.jumbotron-links a.active,
+	.jumbotron-links a:hover {
+		text-shadow: 0 0 10px rgba(255,255,255,.55);
+	}
+	.jumbotron-links {
+		margin-bottom: 1.5em;
+		padding-left: 0;
+		list-style: none;
+		font-size: 14px;
+	}
+	.jumbotron-links li {
+		display: inline;
+	}
+
+
+	/* Set border color in blue */
+	.form-basic input[type="password"].focus-default:focus,
+	.form-basic input[type="text"].focus-default:focus,
+	.form-basic textarea.focus-default:focus
+	 { border-color : #427bb4 !important }
+
+	/* Basic form */
+	.form-basic textarea.form-control,
+	.form-basic textarea.form-control:active,
+	.form-basic input[type="password"].form-control,
+	.form-basic input[type="password"].form-control:active,
+	.form-basic input[type="text"].form-control,
+	.form-basic input[type="text"].form-control:active { 
+		border : 2px solid #d5d5d5;
+		outline : none; 
+	}
+
+	.form-basic textarea.form-control:focus,
+	.form-basic input[type="password"].form-control:focus,
+	.form-basic input[type="text"].form-control:focus {
+		border-color : #2c3e50;
+		box-shadow: none; 
+	}
+
+	.form-basic label {
+		font-weight: normal;
+		letter-spacing: 0.8px;
+	}
+
+	.form-basic .help { font-size : 14px; margin-top : 0.5em; }
+
+
+	label.small {
+		font-size: 17px;
+	}
+
+	.error-field { border-color : #e1604e !important; }
+	.error-text { font-weight: bold; color : #e1604e; }
+	.warning-text { font-weight: bold; color : #fee7aa; }
+
+
+	/* Autocomplete */
+	.search-autocomplete { font-size : 18px; text-align: left; margin-left: 5em; margin-bottom : 2em;}
+	.search-autocomplete a { color : inherit; }
+	.search-autocomplete a:hover,
+	.search-autocomplete a:focus { color : #020202; outline: none; font-weight: bold }
+
+
+	.label-pink { background-color: #DB7093 }
+
+/* #Page Styles
+================================================== */
+
+	/* @Summary
+	================================================== 
+	1. Home Page
+	2. Make Your Idea
+	3. Sign In
+	4. Profile Creations
+	5. Profile Index
+	6. Documentation
+	*/
+
+
+	/* 1. Home Page
+	-------------------------------------------------- */
+
+	/* "What is this home" button */
+	.btn-outline {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		padding: 14px 20px;
+		font-size: inherit;
+		font-weight: 500;
+		color: #fff; /* redeclare to override the `.jumbotron a` */
+		background-color: transparent;
+		background-color: #e85c41;
+		border-color: #fff;
+		border-color: rgba(255,255,255,.5);
+		/*transition: all .1s ease-in-out;*/
+	}
+
+
+
+	.block-search { margin-top : 2em; color : white; color: #595959; border-bottom : 1px solid #595959; width : 80%; text-align: left; margin-right : auto; margin-left : auto; padding-bottom : 3px; margin-bottom : 0.8em; text-align : center;}
+	.block-search input { background-color : transparent; width : 77%; outline : none; border : none; font-size : 25px; color : #595959; }
+	.block-search i.icon-search { font-size : 28px; width : 10%; float : left; margin-top : 0.5em;}
+	.block-search i.icon-angle-right { font-size : 50px;  width : 10%; float : right; }
+
+
+	/* 2. Make Your Idea
+	-------------------------------------------------- */
+
+	/* Icons form add tag */
+	.idea-form-icon,
+	.idea-form-icon2 { 
+
+		display: block;
+		padding-left: 1em;
+		font-size: 25px;
+
+	}
+
+	.idea-form-icon2 {
+
+		padding-top: 50%;
+
+	}
+
+	/* Icons form add tag error */
+	.idea-form-icon-error { 
+
+		padding-top : 100%;
+
+	}
+
+	.idea-form-icon2-error {
+
+	 	/* Maybe to change this, 
+	 	it's not very perfect */
+	 	padding-top: 120%;
+
+	 }
+
+
+	/* 3. Sign In
+	-------------------------------------------------- */
+
+	.sign-in {
+
+		text-align: left;
+		font-size : 15px;
+
+	}
+
+	.sign-in h3 { font-size : 17px; }
+
+	/* Icons form add tag */
+	.sign-form-icon,
+	.sign-form-icon2 { display: block; padding-left: 1em; font-size: 25px; }
+
+	.sign-form-icon2 { padding-top: 30%; }
+
+	/* Icons form add tag error */
+	.sign-form-icon-error { padding-top : 100%; }
+	.sign-form-icon2-error {
+
+	 	/* Maybe to change this, 
+	 	it's not very perfect */
+	 	padding-top: 120%;
+
+	 }
+
+	/* 4. Profile creations
+	-------------------------------------------------- */
+	.creations { margin-bottom: 1em }
+	.creations .result { background-color : white; text-align: left; padding-left : 1em; padding-right : 1em; border : 1px solid #d5d5d5; font-size : 13px; padding-top: 1em; padding-bottom: 1em; margin-bottom: 1em}
+	.creations .result .label { font-size: 12px;
+		vertical-align: 2px;
+		margin-right: 0.3em;
+	}
+	.creations .result:hover { border-left : 3px solid #e85c41; }
+	.creations hr { margin-top : 0.2em; }
+	.creations div.code { background-color : #f5f5f5; min-height: 4em; padding : 1em; border : 1px solid #d5d5d5; margin-bottom: 1.3em}
+	.creations div.code div.block1 { padding-left: 2em; }	
+	.creations i.icon-code { font-weight : bold; padding-right : 0.3em; }
+	.creations i.icon-keyboard { padding-right : 0.4em; }
+	.creations p.request { font-size : 14px; margin-top : 0.4em }
+	.creations .created { margin-top: 0.2em; }
+	.creations .btn-group { margin-bottom : 0.5em; }
+	.creations .dropdown-menu { text-align : left; }
+	.creations .created { padding-right : 1.5em; }
+	.creations input { width : 25em; }
+	/**/
+	.search-creations { border-radius : 5px; min-height: 2em; background-color : #fff; border : 1px solid #d5d5d5; margin-bottom: 1em; text-align: left; padding-right: 1em; padding-left: 1em; padding-top: 1em; padding-bottom: 1em }
+	.search-creations hr { margin-top: 0.2em }
+	.search-creations input.btn,
+	.search-creations a  { 
+		vertical-align: top; 
+	}
+	/**/
+	.nb-creations {  
+		text-align: left;
+		border-bottom: 1px solid #d5d5d5;
+		margin-bottom: 1em;
+		margin-top: 1em;
+		font-size: 25px;
+
+	}
+
+	/* 5. Profile index
+	-------------------------------------------------- */
+	.block-profile .well { text-align: left; padding-top: 10px; }
+	.block-profile .well span { font-size : 15px; }
+	.block-profile .well .alert { padding: 5px 25px 5px 15px; font-size: 13px; }
+
+	/* 6. Space
+	-------------------------------------------------- */
+	.block-space .well h1 { text-align: left }
+
+
+	/* 7. Documentation
+	-------------------------------------------------- */
+	.doc_menu {
+
+		text-align: left; 
+		background-color: white;
+		top: 0;
+		bottom: 0;
+		width: 18em;
+
+		display: block;
+		float: left;
+
+		position: fixed;
+
+		padding-left: 1em;
+		padding-top: -0.5em;
+
+
+		border-right: 2px solid #d5d5d5;
+
+	}
+
+	.doc_menu_content {
+
+		padding-bottom: 5.5em;
+		font-size: 1.0em;
+		line-height: 30px;
+
+
+		margin: 0em;
+
+	}
+
+	/*.doc_menu_content ul ul li:before {
+
+		content: "";
+
+	}*/
+
+	.doc_menu_content h3 {
+
+		text-align: left;
+
+	}
+
+	.doc_menu_content ul {
+
+		list-style: none outside none;
+		list-style-type: none !important;
+
+		margin: 0em;
+		padding-left: 0em;
+
+	}
+
+	.doc_menu_content ul ul {
+
+		font-size: 0.9em;
+		padding-left: 1em;
+
+	}
+
+	.doc_menu_content li {
+
+		text-align: left;
+
+	}
+
+	.doc_content {
+
+	}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+	    */
+
+/* #Css for javascript plugins
+================================================== */
+
+/* plugin : jquery.autosize.js */
+.textarea-transition {
+	transition: height 0.2s;
+	-webkit-transition: height 0.2s;
+	-moz-transition: height 0.2s;
+}
+
+/* #Tools
+================================================== */
+
+	/* @Summary
+	================================================== 
+	1. Tool Text
+	*/
+
+
+	/* 1. Tool Text
+	-------------------------------------------------- */
+	.tool-text h1 { font-size: 45px !important; letter-spacing: 0.8px; }

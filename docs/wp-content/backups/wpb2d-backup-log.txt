@@ -1,0 +1,252 @@
+00:12:21: Backup started on Saturday December 22, 2012.
+00:12:24: Creating SQL backup of your WordPress core.
+00:12:24: Creating SQL backup of your WordPress plugins.
+00:12:29: Backing up WordPress path at (/homepages/26/d399553042/htdocs/_linkbreakers/blog/).
+00:12:35: Approximately 5% complete.
+00:12:41: Approximately 14% complete.
+00:12:47: Approximately 16% complete.
+00:12:53: Approximately 18% complete.
+00:12:59: Approximately 18% complete.
+00:13:05: Approximately 18% complete.
+00:13:11: Approximately 19% complete.
+00:13:17: Approximately 20% complete.
+00:13:23: Approximately 24% complete.
+00:13:29: Approximately 24% complete.
+00:13:35: Approximately 24% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/ultimate-tinymce\/addons\/equation\/editor_plugin.js","mtime":1355314793}]
+00:13:41: Approximately 25% complete.
+00:13:47: Approximately 26% complete.
+00:13:53: Approximately 27% complete.
+00:13:59: Approximately 27% complete.
+00:14:05: Approximately 28% complete.
+00:14:11: Approximately 28% complete.
+00:14:17: Approximately 29% complete.
+00:14:23: Approximately 29% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/ultimate-tinymce\/addons\/tagwrap\/tags\/css\/tagwrap.css","mtime":1355314793}]
+00:14:29: Approximately 32% complete.
+00:14:35: Approximately 33% complete.
+00:14:41: Approximately 33% complete.
+00:14:47: Approximately 34% complete.
+00:14:53: Approximately 35% complete.
+00:14:59: Approximately 39% complete.
+00:15:05: Approximately 45% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/ultimate-tinymce\/js\/pop-up.js","mtime":1355314794},{"file":"wp-content\/plugins\/ultimate-tinymce\/js\/admin_panel.js","mtime":1355314794}]
+00:15:11: Approximately 48% complete.
+00:15:17: Approximately 51% complete.
+00:15:23: Approximately 56% complete.
+00:15:29: Approximately 59% complete.
+00:15:35: Approximately 61% complete.
+00:15:42: Approximately 62% complete.
+00:15:48: Approximately 63% complete.
+00:15:54: Approximately 64% complete.
+00:16:00: Approximately 67% complete.
+00:16:09: Approximately 71% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/wordpress-gzip-compression\/readme.txt","mtime":1356082202}]
+00:16:15: Approximately 71% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/wordpress-gzip-compression\/ezgz.php","mtime":1356082202},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/email\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/email\/minify_error_notification.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/email\/minify_error_notification.php","mtime":1356082702}]
+00:16:21: Approximately 71% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/email\/support_request.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/functions\/compat.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/functions\/activation.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/functions\/http.php","mtime":1356082702}]
+00:16:28: Approximately 71% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/functions\/rule.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/functions\/plugin.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/functions\/extract.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/functions\/url.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/functions\/file.php","mtime":1356082702}]
+00:16:34: Approximately 72% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/functions\/mime.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/lightbox\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/lightbox\/support_us.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/lightbox\/minify_recommendations.php","mtime":1356082702}]
+00:16:40: Approximately 72% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/lightbox\/cdn_s3_bucket_location.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/lightbox\/self_test.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/mime\/other.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/mime\/index.html","mtime":1356082702}]
+00:16:48: Approximately 72% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/mime\/html.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/mime\/cssjs.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/mime\/all.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/cdn\/common\/index.html","mtime":1356082702}]
+00:16:54: Approximately 72% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/cdn\/common\/cnames.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/cdn\/azure.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/cdn\/cf.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/cdn\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/cdn\/mirror.php","mtime":1356082702}]
+00:17:00: Approximately 72% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/cdn\/cotendo.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/cdn\/ftp.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/cdn\/rscf.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/cdn\/edgecast.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/cdn\/netdna.php","mtime":1356082702}]
+00:17:06: Approximately 72% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/cdn\/s3.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/cdn\/cf2.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/common\/index.html","mtime":1356082702}]
+00:17:13: Approximately 73% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/common\/footer.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/common\/help.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/common\/header.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/minify\/ccjs2.php","mtime":1356082702}]
+00:17:21: Approximately 73% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/minify\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/minify\/yuijs2.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/minify\/css.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/minify\/html.php","mtime":1356082702}]
+00:17:28: Approximately 73% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/minify\/yuicss2.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/minify\/csstidy2.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/minify\/csstidy.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/minify\/js.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/minify\/yuijs.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/minify\/htmltidy2.php","mtime":1356082702}]
+00:17:34: Approximately 73% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/minify\/htmltidy.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/minify\/ccjs.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/support\/form\/plugin_config.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/support\/form\/index.html","mtime":1356082702}]
+00:17:40: Approximately 73% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/support\/form\/phone_support.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/support\/form\/bug_report.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/support\/form\/linux_config.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/support\/form\/theme_config.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/support\/form\/new_feature.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/support\/form\/email_support.php","mtime":1356082702}]
+00:17:46: Approximately 74% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/support\/form.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/support\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/support\/select.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/support\/payment.php","mtime":1356082702}]
+00:17:53: Approximately 74% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/mobile.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/faq.xml","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/general.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/index.html","mtime":1356082702}]
+00:18:00: Approximately 74% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/cdn.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/objectcache.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/about.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/referrer.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/minify.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/faq.php","mtime":1356082702}]
+00:18:06: Approximately 74% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/install.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/browsercache.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/pgcache.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/support.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/options\/dbcache.php","mtime":1356082702}]
+00:18:12: Approximately 74% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/popup\/common\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/popup\/common\/footer.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/popup\/common\/header.php","mtime":1356082702}]
+00:18:18: Approximately 75% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/popup\/pagespeed_results.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/popup\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/popup\/cdn_export_library.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/popup\/cdn_export_file.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/popup\/cdn_import_library.php","mtime":1356082702}]
+00:18:25: Approximately 75% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/popup\/cdn_queue.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/popup\/cdn_purge.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/popup\/cdn_rename_domain.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/widget\/latest.php","mtime":1356082702}]
+00:18:33: Approximately 75% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/widget\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/widget\/latest_ajax.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/widget\/pagespeed_control.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/widget\/pagespeed.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/widget\/latest_control.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/define.php","mtime":1356082702}]
+00:18:39: Approximately 75% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/inc\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/.htaccess","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/inc\/error.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/ini\/php.append.ini","mtime":1356082702}]
+00:18:46: Approximately 75% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/ini\/xcache.ini","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/ini\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/ini\/.htaccess","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/ini\/memcache.ini","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/ini\/eaccelerator.ini","mtime":1356082702}]
+00:18:52: Approximately 75% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/ini\/apc.ini","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/CF\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/CF\/cloudfiles.php","mtime":1356082702}]
+00:18:59: Approximately 76% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/CF\/cloudfiles_http.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/CF\/cloudfiles_exceptions.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/CF\/cacert.pem","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/CSSTidy\/class.csstidy_print.php","mtime":1356082702}]
+00:19:07: Approximately 76% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/CSSTidy\/data.inc.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/CSSTidy\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/CSSTidy\/class.csstidy.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/CSSTidy\/class.csstidy_optimise.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Http\/Client\/Adapter\/index.html","mtime":1356082702}]
+00:19:14: Approximately 76% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Http\/Client\/Adapter\/Curl.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Http\/Client\/Adapter\/Proxy.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Http\/Client\/Adapter\/Socket.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Http\/Client\/Adapter\/Exception.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Http\/Client\/Adapter\/Interface.php","mtime":1356082702}]
+00:19:22: Approximately 76% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Http\/Client\/Adapter\/Stream.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Http\/Client\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Http\/Client\/Exception.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Http\/Response\/index.html","mtime":1356082702}]
+00:19:29: Approximately 76% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Http\/Response\/Stream.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Http\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Http\/Exception.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Http\/Response.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Http\/Client.php","mtime":1356082702}]
+00:19:35: Approximately 76% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Http\/Cookie.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Http\/CookieJar.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Uri\/index.html","mtime":1356082702}]
+00:19:41: Approximately 77% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Uri\/Exception.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Uri\/Http.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Credentials\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Credentials\/SharedKeyLite.php","mtime":1356082702}]
+00:19:49: Approximately 77% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Credentials\/Exception.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Credentials\/SharedKey.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Credentials\/CredentialsAbstract.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Credentials\/SharedAccessSignature.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Diagnostics\/ConfigurationDiagnosticInfrastructureLogs.php","mtime":1356082702}]
+00:19:55: Approximately 77% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Diagnostics\/ConfigurationDataSources.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Diagnostics\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Diagnostics\/ConfigurationObjectBaseAbstract.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Diagnostics\/Manager.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Diagnostics\/ConfigurationLogs.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Diagnostics\/ConfigurationDirectories.php","mtime":1356082702}]
+00:20:01: Approximately 77% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Diagnostics\/Exception.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Diagnostics\/ConfigurationInstance.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Diagnostics\/PerformanceCounterSubscription.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Diagnostics\/LogLevel.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Diagnostics\/ConfigurationWindowsEventLog.php","mtime":1356082702}]
+00:20:07: Approximately 77% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Diagnostics\/ConfigurationPerformanceCounters.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Diagnostics\/DirectoryConfigurationSubscription.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/RetryPolicy\/RetryN.php","mtime":1356082702}]
+00:20:15: Approximately 78% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/RetryPolicy\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/RetryPolicy\/Exception.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/RetryPolicy\/NoRetry.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/RetryPolicy\/RetryPolicyAbstract.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage\/Blob\/index.html","mtime":1356082702}]
+00:20:22: Approximately 78% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage\/Blob\/Stream.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage\/Queue.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage\/BlobInstance.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage\/TableEntity.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage\/DynamicTableEntity.php","mtime":1356082702}]
+00:20:28: Approximately 78% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage\/LeaseInstance.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage\/TableInstance.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage\/SignedIdentifier.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage\/BatchStorageAbstract.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage\/BlobContainer.php","mtime":1356082702}]
+00:20:34: Approximately 78% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage\/StorageEntityAbstract.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage\/Table.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage\/QueueMessage.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage\/PageRegionInstance.php","mtime":1356082702}]
+00:20:42: Approximately 78% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage\/Batch.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage\/TableEntityQuery.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage\/QueueInstance.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage\/Blob.php","mtime":1356082702}]
+00:20:48: Approximately 78% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/SessionHandler.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Exception.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/WindowsAzure\/Storage.php","mtime":1356082702}]
+00:20:55: Approximately 79% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Exception.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Microsoft\/Uri.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/HTTP\/index.html","mtime":1356082702}]
+00:21:01: Approximately 79% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/HTTP\/Encoder.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/HTTP\/ConditionalGet.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/CSS\/UriRewriter.php","mtime":1356082702}]
+00:21:08: Approximately 79% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/CSS\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/CSS\/Compressor.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Cache\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Cache\/APC.php","mtime":1356082702}]
+00:21:14: Approximately 79% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Cache\/Wincache.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Cache\/Memcache.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Cache\/Eaccelerator.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Cache\/File.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Cache\/XCache.php","mtime":1356082702}]
+00:21:20: Approximately 79% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Controller\/Version1.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Controller\/Groups.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Controller\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Controller\/Page.php","mtime":1356082702}]
+00:21:27: Approximately 79% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Controller\/Base.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Controller\/MinApp.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Controller\/Files.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Inline\/index.html","mtime":1356082702}]
+00:21:34: Approximately 80% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Inline\/JavaScript.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Inline\/CSS.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Source.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/HTML.php","mtime":1356082702}]
+00:21:40: Approximately 80% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Logger.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Packer.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/ImportProcessor.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/CSSTidy.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/CommentPreserver.php","mtime":1356082702}]
+00:21:46: Approximately 80% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Build.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/IgnoredCommentPreserver.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/CSS.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Inline.php","mtime":1356082702}]
+00:21:52: Approximately 80% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/Lines.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/ClosureCompiler.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/CombineOnly.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/YUICompressor.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify\/HTMLTidy.php","mtime":1356082702}]
+00:21:58: Approximately 80% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Solar\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Solar\/Dir.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/index.html","mtime":1356082702}]
+00:22:04: Approximately 80% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/JSMinPlus.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/Minify.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/FirePHP.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Minify\/JSMin.php","mtime":1356082702}]
+00:22:10: Approximately 81% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Nusoap\/class.soap_transport_http.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Nusoap\/class.soap_parser.php","mtime":1356082702}]
+00:22:16: Approximately 81% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Nusoap\/class.soap_val.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Nusoap\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Nusoap\/class.nusoap_base.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Nusoap\/class.soap_fault.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Nusoap\/class.xmlschema.php","mtime":1356082702}]
+00:22:22: Approximately 81% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Nusoap\/class.wsdl.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Nusoap\/class.wsdlcache.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Nusoap\/nusoap.php","mtime":1356082702}]
+00:22:28: Approximately 81% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/Nusoap\/class.soapclient.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cache\/File\/Cleaner\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cache\/File\/Cleaner\/Generic.php","mtime":1356082702}]
+00:22:34: Approximately 81% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cache\/File\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cache\/File\/Cleaner.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cache\/File\/Generic.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cache\/index.html","mtime":1356082702}]
+00:22:40: Approximately 81% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cache\/Memcached.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cache\/Wincache.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cache\/Xcache.php","mtime":1356082702}]
+00:22:46: Approximately 81% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cache\/Base.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cache\/Eaccelerator.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cache\/File.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cache\/Apc.php","mtime":1356082702}]
+00:22:52: Approximately 82% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cdn\/Mirror\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cdn\/Mirror\/Edgecast.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cdn\/Mirror\/Netdna.php","mtime":1356082702}]
+00:22:59: Approximately 82% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cdn\/Mirror\/Cotendo.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cdn\/S3\/Cf\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cdn\/S3\/Cf\/S3.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cdn\/S3\/Cf\/Custom.php","mtime":1356082702}]
+00:23:06: Approximately 82% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cdn\/S3\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cdn\/S3\/Cf.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cdn\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cdn\/Ftp.php","mtime":1356082702}]
+00:23:12: Approximately 82% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cdn\/Azure.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cdn\/Base.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cdn\/S3.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cdn\/Rscf.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cdn\/Mirror.php","mtime":1356082702}]
+00:23:20: Approximately 82% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Db\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Db\/mssql.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Plugin\/ObjectCache.php","mtime":1356082702}]
+00:23:26: Approximately 82% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Plugin\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Plugin\/DbCache.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Plugin\/TotalCacheAdmin.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Plugin\/Minify.php","mtime":1356082702}]
+00:23:32: Approximately 83% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Plugin\/MinifyAdmin.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Plugin\/TotalCacheActivation.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Plugin\/PgCacheAdmin.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Plugin\/TotalCache.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Plugin\/CdnCommon.php","mtime":1356082702}]
+00:23:38: Approximately 83% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Plugin\/BrowserCache.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Plugin\/CdnAdmin.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Plugin\/Cdn.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Plugin\/PgCache.php","mtime":1356082702}]
+00:23:44: Approximately 83% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Plugin\/BrowserCacheAdmin.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/ObjectCache.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/PluginProxy.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Referrer.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/index.html","mtime":1356082702}]
+00:23:50: Approximately 83% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Minifier.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Minify.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/CloudFlare.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Varnish.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Plugin.php","mtime":1356082702}]
+00:23:56: Approximately 83% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Mobile.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/PgCacheFlush.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Config.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Redirect.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/PageSpeed.php","mtime":1356082702}]
+00:24:03: Approximately 84% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cache.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Request.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Cdn.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/PgCache.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/W3\/Db.php","mtime":1356082702}]
+00:24:10: Approximately 84% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/lib\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/.htaccess","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/JSON.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/lib\/S3.php","mtime":1356082702}]
+00:24:17: Approximately 84% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/plugins\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/plugins\/.htaccess","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/pub\/css\/index.html","mtime":1356082702}]
+00:24:23: Approximately 84% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/pub\/css\/widget.css","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/pub\/css\/popup.css","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/pub\/css\/error.css","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/pub\/css\/options.css","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/pub\/css\/lightbox.css","mtime":1356082702}]
+00:24:29: Approximately 84% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/pub\/img\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/pub\/img\/logo_small.png","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/pub\/img\/ps_scores.png","mtime":1356082702}]
+00:24:45: Approximately 84% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/pub\/img\/ps_bar.gif","mtime":1356082702}]
+00:24:52: Approximately 84% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/pub\/img\/logo.png","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/pub\/img\/ps_grad.gif","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/pub\/img\/loader.gif","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/pub\/js\/metadata.js","mtime":1356082702}]
+00:24:58: Approximately 84% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/pub\/js\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/pub\/js\/lightbox.js","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/pub\/js\/options.js","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/pub\/js\/popup.js","mtime":1356082702}]
+00:25:05: Approximately 85% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/pub\/js\/widget.js","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/pub\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/pub\/network_activation.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/wp-content\/w3tc\/min\/index.html","mtime":1356082702}]
+00:25:11: Approximately 85% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/wp-content\/w3tc\/min\/index.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/wp-content\/w3tc\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/wp-content\/advanced-cache.php","mtime":1356082702}]
+00:25:17: Approximately 85% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/wp-content\/index.html","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/wp-content\/.htaccess","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/wp-content\/db.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/wp-content\/object-cache.php","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/index.html","mtime":1356082702}]
+00:25:23: Approximately 85% complete.
+Uploaded Files:[{"file":"wp-content\/plugins\/w3-total-cache\/readme.txt","mtime":1356082702},{"file":"wp-content\/plugins\/w3-total-cache\/w3-total-cache.php","mtime":1356082702}]
+00:25:30: Approximately 87% complete.
+Uploaded Files:[{"file":"wp-content\/themes\/HyperSpace\/images\/social\/facebook.png","mtime":1355168635},{"file":"wp-content\/themes\/HyperSpace\/images\/social\/feed.png","mtime":1355168635}]
+00:25:36: Approximately 87% complete.
+Uploaded Files:[{"file":"wp-content\/themes\/HyperSpace\/images\/social\/twitter.png","mtime":1355168636},{"file":"wp-content\/themes\/HyperSpace\/images\/social\/youtube.png","mtime":1355168636}]
+00:25:42: Approximately 89% complete.
+00:25:48: Approximately 91% complete.
+00:25:54: Approximately 93% complete.
+Uploaded Files:[{"file":"wp-content\/themes\/twentyten\/images\/wordpress.png","mtime":1355168800}]
+00:26:02: Approximately 95% complete.
+Uploaded Files:[{"file":"wp-content\/backups\/db399574728-backup-core.sql","mtime":1356131544}]
+00:26:33: Approximately 95% complete.
+Uploaded Files:[{"file":"wp-content\/backups\/db399574728-backup-plugins.sql","mtime":1356131549}]
+00:26:41: Approximately 95% complete.
+Uploaded Files:[{"file":"wp-content\/w3tc\/pgcache\/.htaccess","mtime":1356082706},{"file":"wp-content\/w3tc\/min\/index.php","mtime":1356082706}]
+00:26:47: Approximately 96% complete.
+Uploaded Files:[{"file":"wp-content\/w3-total-cache-config-preview.php","mtime":1356082706},{"file":"wp-content\/db.php","mtime":1356082706},{"file":"wp-content\/object-cache.php","mtime":1356082706},{"file":"wp-content\/advanced-cache.php","mtime":1356082706}]
+00:26:53: Approximately 96% complete.
+Uploaded Files:[{"file":"wp-includes\/Text\/Diff\/Renderer.php","mtime":1355168842}]
+00:26:59: Approximately 99% complete.
+00:27:05: Approximately 101% complete.
+00:27:11: Approximately 104% complete.
+00:27:18: Approximately 105% complete.
+Uploaded Files:[{"file":"wp-includes\/js\/thickbox\/loadingAnimation.gif","mtime":1355169165},{"file":"wp-includes\/js\/thickbox\/macFFBgHack.png","mtime":1355169166},{"file":"wp-includes\/js\/thickbox\/tb-close.png","mtime":1355169166}]
+00:27:24: Approximately 106% complete.
+Uploaded Files:[{"file":"wp-includes\/js\/thickbox\/thickbox.css","mtime":1355169167},{"file":"wp-includes\/js\/thickbox\/thickbox.js","mtime":1355169168},{"file":"wp-includes\/js\/tinymce\/plugins\/directionality\/editor_plugin.js","mtime":1355169174},{"file":"wp-includes\/js\/tinymce\/plugins\/directionality\/editor_plugin_src.js","mtime":1355169175}]
+00:27:30: Approximately 106% complete.
+00:27:36: Approximately 107% complete.
+Uploaded Files:[{"file":"wp-includes\/js\/tinymce\/plugins\/spellchecker\/classes\/EnchantSpell.php","mtime":1355169208}]
+00:27:42: Approximately 107% complete.
+Uploaded Files:[{"file":"wp-includes\/js\/tinymce\/plugins\/spellchecker\/classes\/GoogleSpell.php","mtime":1355169209},{"file":"wp-includes\/js\/tinymce\/plugins\/spellchecker\/classes\/PSpell.php","mtime":1355169210},{"file":"wp-includes\/js\/tinymce\/plugins\/spellchecker\/classes\/PSpellShell.php","mtime":1355169210},{"file":"wp-includes\/js\/tinymce\/plugins\/spellchecker\/classes\/SpellChecker.php","mtime":1355169211}]
+00:27:48: Approximately 108% complete.
+00:27:54: Approximately 108% complete.
+00:28:00: Approximately 109% complete.
+Uploaded Files:[{"file":"wp-includes\/js\/tinymce\/plugins\/wpfullscreen\/editor_plugin.js","mtime":1355169248},{"file":"wp-includes\/js\/tinymce\/plugins\/wpfullscreen\/editor_plugin_src.js","mtime":1355169249}]
+00:28:06: Approximately 110% complete.
+00:28:12: Approximately 113% complete.
+00:28:16: A total of 2854 files were processed.
+00:28:16: Backup complete.
+00:28:16: A total of 13MB of memory was used to complete this backup.
+00:28:16: Uploading /homepages/26/d399553042/htdocs/_linkbreakers/blog/wp-content/backups/wpb2d-backup-log.txt.

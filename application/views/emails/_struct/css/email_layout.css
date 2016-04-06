@@ -1,0 +1,85 @@
+
+/* Global entities */
+html, body { 
+
+	height : 100%; 
+	font-weight: 300; 
+	margin : 0; 
+	padding : 0; 
+	background-image: url('http://www.linkbreakers.com/assets/img/bg.jpg'); 
+
+}
+
+/* Remove ugly text decoration */
+a:hover,
+a:focus {
+
+	text-decoration: none;
+
+}
+
+/* Logo */
+.picture {
+
+	text-align: center;
+	margin-bottom : 2em;
+
+}
+
+/* Content part */
+.container {
+
+	max-width: 80%;
+	word-wrap: break-word;
+
+	display: block;
+	margin-right: auto;
+	margin-left : auto;
+
+	background-color: white;
+	border: 2px solid #d5d5d5;
+	color: #2c3e50;
+
+	padding : 2em;
+
+}
+
+/* Signature */
+.powered { 
+
+	text-align: center;
+	margin-top : 2em;
+	margin-bottom: 2em;
+
+}
+
+/* Tiny html elements */
+a {
+
+	border-bottom: 1px dotted;
+	text-decoration: none;
+	color: #34495E;
+
+}
+
+
+h1 {
+
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	letter-spacing: -1px;
+	color: #fff;
+	color: #595959;
+	font-size: 23px;
+	border-bottom: 1px dashed #d5d5d5;
+	padding-bottom: 1em;
+
+}
+
+p {
+
+	font-size: 15px;
+}
+
+/* Helpers */
+.spacer { margin-top: 1em }
